@@ -1,0 +1,107 @@
+@mixin transition($property) {transition: $property .25s;}
+
+html {font: 16px 'Open Sans Condensed', 'Roboto Condensed', Verdana, sans-serif;}
+h1 {font-size: 2.25em;}
+h2 {font-size: 2em;}
+h3 {font-size: 1.75em;}
+h4 {font-size: 1.5em;}
+p {font-size: 1.25em;}
+		
+.wrapper {
+	margin: auto;
+	width: 80%;
+}
+header,
+nav,
+section,
+footer {
+	background: whitesmoke;
+	float: left;
+	width: 100%;
+}
+a {
+	text-decoration: none;
+	transition: color .25s;
+}
+.button {
+	background-color: lightgray;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	text-transform: uppercase;
+}
+
+.button {
+	transition-duration: 0.2s;
+}
+
+.button:hover {
+	background-color: #4CAF50;
+	color: white;
+}
+
+.link {
+	font-weight: bold;
+	color: red;
+}
+
+nav h1 {
+	float: left;
+	font-size: 3.5em;
+	text-transform: uppercase;
+	margin-left: 1em;
+}
+
+.nav-ul {
+	display: flex;
+}
+
+.header {
+	text-align: center;
+	font-size: 30px;
+}
+
+a:link {
+	color: pink;
+}
+a:visited {
+	color: pink;
+}
+a:hover {
+	color: red;
+}
+
+.amogus:link {
+	color:  hotpink;
+}
+.amogus:visited {
+	color:  hotpink;
+}
+
+footer {
+	text-align: center;
+	background: whitesmoke;
+}
+header .nav-ul {
+	justify-content: right;
+	text-transform: uppercase;
+	font-size:  2em;
+	margin-right: 1em;
+}
+footer .nav-ul {
+	justify-content: center;
+	font-size:  1em;
+}
+footer a {
+	font-weight: bold;
+}
+section h1 {
+	margin-left: 1rem;
+}
+article {
+	margin-left: 1rem;
+}
